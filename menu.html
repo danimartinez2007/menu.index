@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <h1>Daniela & Michelle Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contact"> <section id="contact">
+    <h2>Contacto</h2>
+    <p>Puedes contactarnos al: <a href="tel:+123456789">123-456-789</a> o por correo electrónico a: <a href="mailto:info@buenprovecho.com">info@buenprovecho.com</a></p>
+    <p>Síguenos en redes sociales:</p>
+    <ul class="social-links">
+        <li><a href="https://www.facebook.com/restaurantebuenprovecho">Facebook</a></li>
+        <li><a href="https://twitter.com/buenprovecho">Twitter</a></li>
+        <li><a href="https://www.instagram.com/buenprovechorestaurante">Instagram</a></li>
+      </ul>
+      </section>
+      </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div id="menu-items">
+            <div class="menu-item"
+                <h3>PASTAS </h3>
+                <p>ricas pastas al gusto , solo para consentirte.</p>
+                <button onclick="addToCart('Hamburguesa', 10)">Añadir al carrito</button>
+            </div>
+            <div class="menu-item">
+                <h3>PIZZAS</h3>
+                <p>ricas pizzas recien horneadas,con tus ingredientes favoritos.</p>
+                <button onclick="addToCart('Pizza', 12)">Añadir al carrito</button>
+            </div>
+            <div class="menu-item">
+                <h3>CORTES</h3>
+                <p>pregunta por los tipos de cortes , pidelo a tu gusto,con sus respectivas guarniciones</p>
+                <button onclick="addToCart('Pizza', 12)">Añadir al carrito</button>
+            </div>
+           <div class="menu-item">
+                <h3>ENSALADAS</h3>
+                <p> pregunta por la variedad de nuestras ensaladas,con tus ingredientes favoritos.</p>
+                <button onclick="addToCart('Pizza', 12)">Añadir al carrito</button>
+            </div> 
+            <!-- Agrega más elementos de menú aquí -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos al: 123-456-789 o por correo electrónico a: info@buenprovecho.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024_Daniela & Michelle Restaurant Buen Provecho </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
